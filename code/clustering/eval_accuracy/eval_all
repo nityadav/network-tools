@@ -1,0 +1,28 @@
+#!/usr/bin/python
+import sys
+from sklearn import metrics
+from os import listdir
+
+# get all the files' names and remove .DS_Store
+files = listdir('.')
+files.remove('.DS_Store')
+files.remove('lbl.csv')
+files.remove('accuracy.csv')
+files.remove('eval_all')
+files.remove('eval.py')
+
+lbl_file = open('lbl.csv')
+true_labels = [int(line.strip()) for line in lbl_file]
+lbl_file.close()
+
+results = open('accuracy.csv','w')
+results.write('Algorithm,AMI,ARI\n')
+
+for clustering_file in files:
+	print clustering_file
+	clus_file = open(clustering_file)
+	clustering_labels = [int(line.strip()) for line in clus_file]
+	clus_file.close()
+	AMI = metrics.adjusted_mutual_info_score(true_labels, clustering_labels)
+	ARI = metrics.adjusted_rand_score(true_labels, clustering_labels)
+	results.write(clustering_file.split('.')[0] + ',' + str(AMI) + ',' + str(ARI) + '\n')

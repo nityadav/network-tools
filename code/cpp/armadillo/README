@@ -1,0 +1,5 @@
+To compile:
+make
+
+To run (example):
+./peel_det_fast ../test/data/adj1k.net communities.csv

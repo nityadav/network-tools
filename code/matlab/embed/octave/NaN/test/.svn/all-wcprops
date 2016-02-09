@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test
+END
+test_xval.m
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_xval.m
+END
+test_fss.m
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_fss.m
+END
+test_classify.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_classify.m
+END
+test_xptopen.m
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_xptopen.m
+END
+test_train_sc.m
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_train_sc.m
+END
+test_mex_accuracy.m
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svnroot/octave/!svn/ver/8223/trunk/octave-forge/extra/NaN/test/test_mex_accuracy.m
+END
